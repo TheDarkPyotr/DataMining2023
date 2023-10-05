@@ -1,6 +1,8 @@
 # Gun Incidents in the USA 
 ## Data Mining - A.Y. 2023/2024
 
+This README provides an overview of the Gun Incidents in the USA project for the academic year 2023/2024, including dataset details and the tasks to be completed. For more detailed information, please refer to the project documentation and code (*still in progress*).
+
 The project involves data analysis using data mining tools and must be completed by a team of three students. The primary programming language for this project is Python. The project guidelines specify addressing specific tasks, and the results must be reported in a unique paper with a total length of 25 pages of text, including figures. Additionally, students are required to deliver both the paper and well-commented Python notebooks.
 
 ## Dataset Description
@@ -107,4 +109,3 @@ Note: The final report must be delivered by the end of December and can also imp
 
 ---
 
-This README provides an overview of the Gun Incidents in the USA project for the academic year 2023/2024, including dataset details and the tasks to be completed. For more detailed information, please refer to the project documentation and code.
