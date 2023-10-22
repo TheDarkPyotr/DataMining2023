@@ -34,13 +34,23 @@
 
 
 \chapter{Data Understanding}
+List main numerical measure about the dataset (\textit{e.g. number of rows, number of attributes, domain of attributes, etc}).
 
 \subsection{Data semantics}
+Describe briefly the semantics of each attribute, specify the exact measure (e.g a certain ID can have numerical values, char value that if start with C identify a specific category, etc)
 \subsection{Data quality}
+List incosistency with meaning described before, statistical useless data if present, repetitions, if some text needed standardization (lower/uppercase), if dropped missing value record of applied manipulations.\\
+Search for outliers, present box plots of outliers and distriubtion histograms: specify which method is used for outliers removal and why, describing the size of the DS after manipulation and the percentage of decrease respect to original one. \\
+ 
 \subsection{Data distribution, statistics \& correlation}
+Perform a statistical analysis to assess the distribution of each attribute and find hidden information in the dataset. Compute the Pearson correlation matrix, shows if useful result are obtained, otherwise analyze attribute or pair of attribute, showing their distribution.
+Compare attribute distribution and range of values for specific range of time.
+ 
 
 
 \chapter{Data Preparation}
+Join datasets, refining specific events if possible, create new attributes by join them
+
 \subsection{Data semantics}
 \subsection{Data quality}
 \subsection{Data distribution, statistics \& correlation}
@@ -48,7 +58,7 @@
 
 
 \chapter{Clustering}
-
+In this chapter we discuss \textbf{3 different clustering algorithms} (\textit{K-means, DBScan and Hierarchical}), fine-tuning their hyperparameters and evaluating results from both the statistical and semantical point of view.
 
 \chapter{Predictive Analysis}
 
