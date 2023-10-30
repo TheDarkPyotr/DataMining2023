@@ -61,6 +61,24 @@ The third file, `year_state_district_house.csv`, contains information about the 
 
 Explore the incidents dataset using analytical tools and write a concise "data understanding" report that assesses data quality, the distribution of variables, and pairwise correlations. 
 
+Subtasks of Data Understanding:
+
+- Data semantics for each feature not described above and the new ones defined by the team
+- Distribution of the variables and statistics
+- Assessing data quality (missing values, outliers, duplicated records, errors)
+- Variables transformations
+- Pairwise correlations and eventual elimination of redundant variables
+
+For this task we followed the following check structure [#WIP]():
+1. Type of data
+2. Type of attribute
+3. Data Quality
+4. Correlation analysis
+5. Outliers detection and manipulation
+
+For task 1.1 see the corresponding Notebook in [Task 1.1 - Data Understanding](Task1_Data_Understanding.ipynb).
+
+
 #### Task 1.2: Data Preparation
 
 Improve the quality of your data and prepare it by extracting new features interesting for describing the incidents. Some examples of indicators to be computed are:
@@ -72,15 +90,21 @@ Improve the quality of your data and prepare it by extracting new features inter
 
 Note that these examples are not mandatory, and teams can define their own indicators. Each indicator must be correlated with a description and, when necessary, its mathematical formulation. The extracted variables will be useful for the clustering analysis in the second project's task. Once the set of indicators is computed, the team should explore the new features for a statistical analysis, including distributions, outliers, visualizations, and correlations.
 
-Subtasks of Data Understanding:
-
-- Data semantics for each feature not described above and the new ones defined by the team
-- Distribution of the variables and statistics
-- Assessing data quality (missing values, outliers, duplicated records, errors)
-- Variables transformations
-- Pairwise correlations and eventual elimination of redundant variables
 
 Nice visualization and insights can be obtained by exploiting the latitude and longitude features ([example](https://plotly.com/python/getting-started/)).
+
+For this task we followed the following check structure: [#WIP]()
+1. Data aggregation
+2. Reduction of dimensionality
+3. Data cleaning
+4. Discretization
+5. Data transofmration
+6. Principal Component Analysis via Covariance Matrix
+8. Data Similarity via Entropy and proximity coefficients
+
+See the corresponding Notebook in [Task 1.2 - Data Preparation](Task1_Data_Preparation.ipynb).
+
+
 
 ### Task 2: Clustering Analysis (30 POINTS - 32 with optional subtask)
 
@@ -104,6 +128,8 @@ Subtasks:
 - Final evaluation of the best clustering approach and comparison of the clustering obtained
 
 - Optional (2 points): Explore the opportunity to use alternative clustering techniques in the library [pyclustering](https://github.com/annoviko/pyclustering/)
+.
+
 
 Note: The final report must be delivered by the end of December and can also improve the already delivered tasks.
 
