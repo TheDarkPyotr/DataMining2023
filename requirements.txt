@@ -213,3 +213,4 @@ widgetsnbextension==4.0.8
 xxhash==3.3.0
 yarl==1.9.2
 zipp==1.0.0
+tqdm
